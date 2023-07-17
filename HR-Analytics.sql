@@ -1,4 +1,4 @@
---Practice queries are written by me. Data dump was provided to me
+--Queries are written by me. Data dump was provided to me
 
 -- 1. Which region has the most operations?
 select r.region_name, count(department_id) as number_of_operations
